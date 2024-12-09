@@ -1,0 +1,13 @@
+
+version: 2
+
+models:
+  - name: dim_emplyoee_det
+    description: "A emplyoee dbt model"
+    columns:
+      - name: EMPLOYEE_ID
+        description: "The primary key for this table"
+        data_tests:
+          - unique
+
+ 

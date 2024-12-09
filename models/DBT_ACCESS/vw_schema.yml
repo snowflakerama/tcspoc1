@@ -1,0 +1,11 @@
+#version: 2
+#
+#models:
+#  - name: vw_all_ret_data
+#    description: "all resource data"
+#    columns:
+#      - name: YearMonthNum
+#        description: "Test if the column is not empty"
+#        tests:
+#          - string_not_empty
+      
